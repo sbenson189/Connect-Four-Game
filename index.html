@@ -1,0 +1,33 @@
+<!doctype html>
+<head>
+  <title>Connect 4</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="connect4.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  
+</head>
+<body>
+  <h1 id="gameName">
+    Connect Four <i class="fas fa-spin fa-gamepad"></i>
+  </h1>
+  <h3 class="textContent">HOW THE GAME WORKS</h3>
+  <hr>
+    <p>
+      The game rules for Connect Four are just as simple as the directions for play. Since only one checker can be placed in the board at a time and 
+      all of the slots are divided into rows and columns, it’s not possible to cheat and move a checker once it has been placed. Checkers in the board 
+      may not be manipulated. Each player may drop only one checker into the grid per turn.
+      A winner is declared when one player gets four of their colored checkers in a row vertically, horizontally or diagonally. Other configurations, 
+      such as squares, don’t count as winning combinations. The game is declared a stalemate or tie if all the pieces are played but nobody has four in 
+      a row. How many pieces in Connect Four? If you play a few games ending in stalemate, you’ll see there are 42, 21 of each color.
+    </p>
+  <div id="game">
+    <table id="board">
+
+    </table>
+  </div>
+
+<script src="connect4.js"></script>
+
+</body>
+</html>
